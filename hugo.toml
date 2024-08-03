@@ -29,10 +29,10 @@ summarylength = 25
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
           name = "Terms of Use"
-          url  = "terms-of-use"
+          url  = "#"
         [[params.footer.sitemap.link]]
           name = "Cookie Policy"
-          url  = "cookie-policy"
+          url  = "#"
 
 [services]
   [services.googleAnalytics]

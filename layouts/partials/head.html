@@ -20,4 +20,6 @@
     {{ $js = $js | fingerprint }}
     {{ end }}  
     <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
+
+    {{ template "_internal/google_analytics.html" . }}
   </head>
