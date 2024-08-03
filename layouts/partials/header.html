@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-md bg-body-tertiary">
+  <div class="container col-xxl-8">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">Bethany Christian Centre</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-0" id="navbarToggler">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        {{ $currentPage := . }}
+        {{$menu := (.Site.Menus.main)}} 
+        {{$len := (len $menu)}} 
+        {{ range $index, $element := $menu }} 
+          {{ if $currentPage.IsMenuCurrent .Menu . }}
+        <li class="nav-item mx-1">
+          <a class="nav-link active" aria-current="page" href="{{ .URL | absURL }}">{{ .Name }}</a>
+        </li>
+          {{ else }}
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+        </li>          
+          {{ end }} 
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<div class="container col-xxl-8">
+  <h1 class="display-3 text-center">{{ .Title }}</h1>
+  <div class="row row-cols-1 row-cols-md-2 g-5 my-5">
+    {{ with .Resources.Get "card-1-contact.md" }}
+    <div class="col">
+      {{ .Content }}
+    </div>
+    {{ end }}
+    {{ with .Resources.Get "card-2-office-hours.md" }}
+    <div class="col">
+      {{ .Content }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "cta-join-us.html" . }}
+
+<div class="container col-xxl-8 my-5">
+  <h2 class="display-3 text-center my-5">Join us @ 167YCK</h2>
+  <div class="row row-cols-1 row-cols-md-2 g-5">
+    {{ with .Resources.Get "card-3-visit-public-transport.md" }}
+    <div class="col">
+      {{ .Content }}
+    </div>
+    {{ end }}
+    {{ with .Resources.Get "card-4-visit-car.md" }}
+    <div class="col">
+      {{ .Content }}
+    </div>
+    {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0">
+  <div class="ratio ratio-1x1" style="max-height: 500px; overflow: hidden;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.391362009837!2d103.87230983175851!3d1.359225088484068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17ab5bd6a74f%3A0xa8e5296aedf7e21e!2sBethany%20Christian%20Centre!5e0!3m2!1sen!2ssg!4v1722680486604!5m2!1sen!2ssg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+{{ partial "cta-activities.html" . }}
+
+{{ end }}

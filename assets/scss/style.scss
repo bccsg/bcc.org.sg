@@ -1,0 +1,21 @@
+@import "bootstrap/bootstrap";
+
+.text-cta-orange,
+.text-cta-orange .table>:not(caption)>*>* {
+  color: #CF753E
+}
+
+.btn-cta-orange {
+  @extend .btn-warning;
+  color: white;
+  background-color: #CF753E;
+}
+
+.text-cta-navy {
+  color: #3D4381
+}
+
+.btn-cta-navy {
+  @extend .btn-primary;
+  background-color: #3D4381
+}

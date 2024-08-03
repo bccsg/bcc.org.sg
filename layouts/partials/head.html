@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8" />
+    <title>{{ .Title }}</title>
+  
+    {{ "<!-- mobile responsive meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    {{ hugo.Generator }}
+  
+    {{ "<!-- Main Stylesheets -->" | safeHTML }}
+    {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+    <link href="{{ $style.Permalink }}" rel="stylesheet" />
+
+    {{ $js := resources.Get "js/index.js" }}
+    {{ $params := dict }}
+    {{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+    {{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
+    {{ $js = $js | js.Build $opts }}
+    {{ if hugo.IsProduction }}
+    {{ $js = $js | fingerprint }}
+    {{ end }}  
+    <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
+  </head>
