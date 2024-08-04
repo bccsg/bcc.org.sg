@@ -10,10 +10,12 @@
               Sunday English Services @ 167YCK<br>
               10:30am - 12:00pm
             </p>
+            {{ with .Site.GetPage "activities" }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="{{ relref . "activities/#card-1-english-service" }}" class="btn btn-sm btn-cta-navy btn-lg px-4">English Service</a>
-              <a href="{{ relref . "activities/#card-2-royal-rangers" }}" class="btn btn-sm btn-cta-navy btn-lg px-4">Children's Classes</a>
+              <a href="{{ .RelPermalink }}#card-1-english-service" class="btn btn-sm btn-cta-navy btn-lg px-4">English Service</a>
+              <a href="{{ .RelPermalink }}#card-2-royal-rangers" class="btn btn-sm btn-cta-navy btn-lg px-4">Children's Classes</a>
             </div>
+            {{ end }}
           </div>
         </div>
       </div>
@@ -48,5 +50,4 @@
     </div>
   </div>
 </div>
-
 {{ "<!-- Site cta-join-us End -->" | safeHTML }}
