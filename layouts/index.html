@@ -1,6 +1,20 @@
 {{ define "main" }}
 
-{{ partial "hero.html" . }}
+<div class="container col-xxl-8">
+  <div class="row flex-lg-row-reverse align-items-center my-lg-5">
+    <div class="col-lg-6 m-0 p-0">
+      {{ with resources.Get "images/home-banner.jpg" }}
+        {{ with .Fill "800x600 Center" }}
+      <img src="{{ .RelPermalink }}" class="d-block img-fluid" alt="" width="800" height="600" loading="lazy">
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="col-lg-6 my-5">
+      <h1 class="display-3 fw-bold text-body-emphasis lh-1 mb-3">{{ .Title }}!</h1>
+      {{ .Content }}
+    </div>
+  </div>
+</div>
 
 {{ partial "cta-join-us.html" . }}
 

@@ -36,9 +36,10 @@
                 <td>167YCK (Saturday: 4:00pm - 5:30pm)</td>
               </tr>
             </table>
-            {{ if .Param "showContactUsButton" }}
+            {{ $contactPage := .Site.GetPage "contact" }}
+            {{ if not (.Eq $contactPage) }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="{{ relref . "contact" }}" class="btn btn-sm btn-cta-orange btn-lg px-4">Contact Us</a>
+              <a href="{{ $contactPage.RelPermalink  }}" class="btn btn-sm btn-cta-orange btn-lg px-4">Contact Us</a>
             </div>
             {{ end }}
           </div>

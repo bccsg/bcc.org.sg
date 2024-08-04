@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="container col-xxl-8">
+  <h1 class="display-3 text-center">{{ .Title }}</h1>
+  {{ with .Content }}
+  <div class="row my-5">
+    <div class="col p-3">
+      {{ . }}
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="row row-cols-1 row-cols-md-2 my-5">
+    <div class="col p-3">
+      <div class="card h-100">
+        <div class="card-body">
+          {{ with .Resources.Get "card-1-paynow.html" }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="col p-3">
+      <div class="card h-100">
+        <div class="card-body">
+          {{ with .Resources.Get "card-2-bank-transfer.html" }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ partial "cta-activities.html" . }}
+
+{{ end }}
