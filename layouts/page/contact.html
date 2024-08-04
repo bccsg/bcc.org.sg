@@ -2,10 +2,31 @@
 
 <div class="container col-xxl-8">
   <h1 class="display-3 text-center">{{ .Title }}</h1>
-  <div class="row row-cols-1 row-cols-md-2 g-5 my-5">
-    {{ with .Resources.Get "card-1-contact.md" }}
+  {{ with .Resources.Get "card-1-contact.md" }}
+  <div class="row">
     <div class="col">
       {{ .Content }}
+    </div>
+  </div>
+  {{ end }}
+  <div class="row row-cols-1 row-cols-md-2 g-5 my-5">    
+    {{ with .Site.Params.contactInfo }}
+    <div class="col">
+      <h2 class="text-center">{{ .Name }}</h2>      
+      <table class="table">
+        <tr>
+          <td>Phone</td>
+          <td><a href="tel:{{ .phone }}">{{ .phone }}</a></td>
+        <tr>
+        <tr>
+          <td>Email</td>
+          <td><a href="mailto:{{ .email }}">{{ .email }}</a></td>
+        <tr>
+        <tr>
+          <td>Address</td>
+          <td>{{ .address }}</td>
+        <tr>
+      </table>
     </div>
     {{ end }}
     {{ with .Resources.Get "card-2-office-hours.md" }}
