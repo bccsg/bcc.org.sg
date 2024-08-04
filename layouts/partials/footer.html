@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <footer class="py-3 my-4">
-    {{ with .Site.Params.footer.contactInfo }}
-    <h5 class="text-center">{{ .title }}</h5>
+    {{ with .Site.Params.contactInfo }}
+    <h5 class="text-center">{{ .name }}</h5>
     <p class="text-center text-body-secondary">
       {{ .address }}<br>
       t: <a href="tel:{{ .phone }}">{{ .phone }}</a>
