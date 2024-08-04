@@ -11,19 +11,19 @@
   <tr>
   <tr>
     <td>Tuesday</td>
-    <td>9:00am - 6:00pm</td>
+    <td>9:00am - 5:00pm</td>
   <tr>
   <tr>
     <td>Wednesday</td>
-    <td>9:00am - 6:00pm</td>
+    <td>9:00am - 5:00pm</td>
   <tr>
   <tr>
     <td>Thursday</td>
-    <td>9:00am - 6:00pm</td>
+    <td>9:00am - 5:00pm</td>
   <tr>
   <tr>
     <td>Friday</td>
-    <td>9:00am - 6:00pm</td>
+    <td>9:00am - 5:00pm</td>
   <tr>
   <tr>
     <td>Saturday</td>
