@@ -7,9 +7,11 @@
     {{ range .Resources.Match "card-*.md" }}
     <div class="col">
       <div id="{{ replace .Name ".md" "" }}" class="card h-100">
-        {{ $image := $context.Resources.Get (replace .Name ".md" ".jpg") }}
-        {{ $image := $image.Fill "400x300 Center" }}
-        <img src="{{ $image.RelPermalink }}" class="card-img-top" alt="">
+        {{ with $context.Resources.Get (replace .Name ".md" ".jpg") }}
+          {{ with .Fill "400x300 Center" }}
+        <img src="{{ .RelPermalink }}" class="card-img-top img-fluid" width="{{ .Width }}" height="{{ .Height }}" alt="">
+          {{ end }}
+        {{ end }}
         <div class="card-body">
           {{ .Content }}
         </div>
