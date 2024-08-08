@@ -8,6 +8,10 @@ body {
   background-attachment: fixed;
 }
 
+.rounded-auto {
+  @extend .rounded;
+}
+
 .text-cta-orange,
 .text-cta-orange .table>:not(caption)>*>* {
   color: #CF753E
@@ -26,6 +30,12 @@ body {
 .btn-cta-navy {
   @extend .btn-primary;
   background-color: #3D4381
+}
+
+@media only screen and (max-width: 990px) {
+  .rounded-auto {
+    border-radius: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
