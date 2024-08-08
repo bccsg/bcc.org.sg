@@ -2,12 +2,8 @@
 
 <div class="container col-xxl-8">
   <h1 class="display-3 text-center">{{ .Title }}</h1>
-  <div class="my-5 clearfix">
-    {{ with .Resources.Get "card-1-history-image.html" }}
-      {{ .Content }}
-    {{ end }}
-    
-    {{ with .Resources.Get "card-2-history.md" }}
+  <div class="my-5 clearfix">    
+    {{ with .Resources.Get "card-1-history.md" }}
       {{ .Content }}
     {{ end }}
   </div>
@@ -16,6 +12,14 @@
 <div class="container-fluid px-0">
   <div class="px-4 py-5 text-center bg-light bg-gradient" >
     {{ with .Resources.Get "card-3-bible-quote.html" }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+</div>
+
+<div class="container col-xxl-8">
+  <div class="my-5 clearfix">    
+    {{ with .Resources.Get "card-2-history.md" }}
       {{ .Content }}
     {{ end }}
   </div>

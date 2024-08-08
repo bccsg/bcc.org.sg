@@ -1,4 +1,4 @@
-## Office operating hours { .card-title .text-center }
+## Office operating hours { .card-title .display-6 .text-center }
 
 <dl class="row mt-3">
   <dt class="col-6 card-text">Sunday</dt>
