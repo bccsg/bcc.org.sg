@@ -6,8 +6,8 @@ title = 'Give'
     weight = 50
 +++
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 my-5">
-  <figure class="col">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-lg-5 my-5">
+  <figure class="col my-0">
     <blockquote class="blockquote">
       <p class="lead">
         Each one must give as he has decided in his heart, not reluctantly or
@@ -19,7 +19,7 @@ title = 'Give'
     </figcaption>
   </figure>
 
-  <figure class="col">
+  <figure class="col my-0">
     <blockquote class="blockquote">
       <p class="lead">
         Honor the LORD with your wealth and with the firstfruits of all your
@@ -32,7 +32,7 @@ title = 'Give'
     </figcaption>
   </figure>
 
-  <figure class="col">
+  <figure class="col my-0">
     <blockquote class="blockquote">
       <p class="lead">
         Bring the full tithe into the storehouse, that there may be food in my
