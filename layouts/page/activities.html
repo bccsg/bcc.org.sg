@@ -8,7 +8,7 @@
     <div class="col">
       <div id="{{ replace .Name ".md" "" }}" class="card h-100">
         {{ with $context.Resources.Get (replace .Name ".md" ".jpg") }}
-          {{ with .Fill "400x300 Center" }}
+          {{ with .Fill "400x300 WEBP Center" }}
         <img src="{{ .RelPermalink }}" class="card-img-top img-fluid" width="{{ .Width }}" height="{{ .Height }}" alt="">
           {{ end }}
         {{ end }}
