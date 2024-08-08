@@ -18,9 +18,7 @@
           {{ end }}
         </div>
         {{ with .Resources.Get "card-1-paynow-qr.png" }}
-          {{ with .Resize "500x500" }}
-        <img src="{{ .RelPermalink }}" class="card-img-bottom img-fluid" width="{{ .Width }}" height="{{ .Height }}" alt="">
-          {{ end }}
+        <img src="{{ .RelPermalink }}" class="card-img-bottom img-fluid" width="600" height="600" alt="">
         {{ end }}
       </div>
     </div>
