@@ -3,7 +3,7 @@
 <div class="container col-xxl-8">
   <div class="row align-items-center my-lg-5">
     <div class="col-lg-6 my-md-0 p-0">
-      <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel slide me-lg-5" data-bs-ride="carousel">
         <div class="carousel-inner rounded-auto">
           {{ range $index, $image := resources.Match "images/home-carousel-*" }}
             {{ with $image.Fill "800x600 WEBP Center" }}
