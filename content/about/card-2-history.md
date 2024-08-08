@@ -1,5 +1,3 @@
-## History
-
 The church grew in numbers and we continued to worship in the premise for 2 over
 decades. The building began to show signs of age over time. Severe cracks
 started to appear on the roofing, the ceiling surrounding the pillars, along the

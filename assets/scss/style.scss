@@ -1,5 +1,12 @@
 @import "bootstrap/bootstrap";
 
+body {
+  background-image: url('/images/bg-building-sky.webp');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: top center;
+}
+
 .text-cta-orange,
 .text-cta-orange .table>:not(caption)>*>* {
   color: #CF753E
@@ -18,4 +25,17 @@
 .btn-cta-navy {
   @extend .btn-primary;
   background-color: #3D4381
+}
+
+@media only screen and (max-width: 1440px) {
+  body {
+    background-size: 1440px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 1440px auto;
+    background-position: top 70%;
+  }
 }

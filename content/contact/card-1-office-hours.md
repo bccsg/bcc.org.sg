@@ -1,32 +1,24 @@
-## Office operating hours { .text-center }
+## Office operating hours { .card-title .text-center }
 
-<table class="table">
-  <tr>
-    <td>Sunday</td>
-    <td>Closed</td>
-  <tr>
-  <tr>
-    <td>Monday</td>
-    <td>Closed</td>
-  <tr>
-  <tr>
-    <td>Tuesday</td>
-    <td>9:00am - 5:00pm</td>
-  <tr>
-  <tr>
-    <td>Wednesday</td>
-    <td>9:00am - 5:00pm</td>
-  <tr>
-  <tr>
-    <td>Thursday</td>
-    <td>9:00am - 5:00pm</td>
-  <tr>
-  <tr>
-    <td>Friday</td>
-    <td>9:00am - 5:00pm</td>
-  <tr>
-  <tr>
-    <td>Saturday</td>
-    <td>Closed</td>
-  <tr>
-</table>
+<dl class="row mt-3">
+  <dt class="col-4 card-text">Sunday</dt>
+  <dd class="col-8 card-text">Closed</dd>
+
+  <dt class="col-4 card-text">Monday</dt>
+  <dd class="col-8 card-text">Closed</dd>
+  
+  <dt class="col-4 card-text">Tuesday</dt>
+  <dd class="col-8 card-text">9:00am - 5:00pm</dd>
+  
+  <dt class="col-4 card-text">Wednesday</dt>
+  <dd class="col-8 card-text">9:00am - 5:00pm</dd>
+  
+  <dt class="col-4 card-text">Thursday</dt>
+  <dd class="col-8 card-text">9:00am - 5:00pm</dd>
+  
+  <dt class="col-4 card-text">Friday</dt>
+  <dd class="col-8 card-text">9:00am - 5:00pm</dd>
+
+  <dt class="col-4 card-text">Saturday</dt>
+  <dd class="col-8 card-text">Closed</dd>
+</dl>
