@@ -1,6 +1,6 @@
 ## Office operating hours { .card-title .display-6 .text-center }
 
-<dl class="row mt-3">
+<dl class="row my-5 mx-auto" style="max-width: 400px">
   <dt class="col-6 card-text">Sunday</dt>
   <dd class="col-6 card-text">Closed</dd>
 

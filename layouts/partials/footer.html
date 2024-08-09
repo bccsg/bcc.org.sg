@@ -4,8 +4,14 @@
     <h5 class="text-center">{{ .name }}</h5>
     <p class="text-center text-body-secondary">
       {{ .address }}<br>
-      t: <a href="tel:{{ .phone }}">{{ .phone }}</a>
-      e: <a href="mailto:{{ .email }}">{{ .email }}</a>
+      <i class="bi-telephone"></i>
+      <a class="text-decoration-none" href="tel:{{ .phone }}">
+        {{ .phone }}
+      </a>
+      <i class="bi bi-envelope-at"></i>
+      <a class="text-decoration-none" href="mailto:{{ .email }}">
+        {{ .email }}
+      </a>
     </p>
     {{ end }}
   </footer>
