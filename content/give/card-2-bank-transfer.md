@@ -1,6 +1,6 @@
 ## Give via Bank Transfer { .card-title .text-center }
 
-<dl class="row mt-3">
+<dl class="row mt-3 mx-auto">
   <dt class="col-4 card-text">Bank name</dt>
   <dd class="col-8 card-text">DBS</dd>
   
