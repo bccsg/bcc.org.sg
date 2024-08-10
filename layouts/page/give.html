@@ -16,10 +16,12 @@
           {{ with .Resources.Get "card-1-paynow.md" }}
             {{ .Content }}
           {{ end }}
+          {{ with .Resources.Get "card-1-paynow-qr.png" }}
+            {{ with .Resize "350x350 WEBP q100 Lanczos" }}
+          <img src="{{ .RelPermalink }}" class="img-fluid mx-auto d-block" alt="">
+            {{ end }}
+          {{ end }}
         </div>
-        {{ with .Resources.Get "card-1-paynow-qr.png" }}
-        <img src="{{ .RelPermalink }}" class="card-img-bottom img-fluid" width="600" height="600" alt="">
-        {{ end }}
       </div>
     </div>
 

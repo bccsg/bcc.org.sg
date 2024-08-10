@@ -47,7 +47,7 @@ title = 'Give'
   </figure>
 </div>
 
-<hr>
+<hr class="m-5">
 
 Please indicate your giving purpose in the transaction description.
 { .text-center }
@@ -55,4 +55,4 @@ Please indicate your giving purpose in the transaction description.
 Example: YourName-Tithe / YourName-Offering / YourName Missions
 { .text-center }
 
-<hr>
+<hr class="m-5">
