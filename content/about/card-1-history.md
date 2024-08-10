@@ -1,6 +1,6 @@
-## History
+## History { .centre .display-6 }
 
-<figure class="figure col-md-6 pe-md-3 float-start">
+<figure class="figure">
   <img src="mobil-1987.jpg" class="figure-img img-fluid rounded">
   <figcaption class=figure-caption>
     1st premise in 1987 over a Mobil station

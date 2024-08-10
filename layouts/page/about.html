@@ -2,50 +2,42 @@
 
 <div class="container col-xxl-8">
   <h1 class="display-3 text-center">{{ .Title }}</h1>
-  <div class="my-5 clearfix">    
-    {{ with .Resources.Get "card-1-history.md" }}
-      {{ .Content }}
-    {{ end }}
-  </div>
-</div>
-
-<div class="container-fluid px-0">
-  <div class="px-4 py-5 text-center bg-light bg-gradient" >
-    {{ with .Resources.Get "card-3-bible-quote.html" }}
-      {{ .Content }}
-    {{ end }}
-  </div>
-</div>
-
-<div class="container col-xxl-8">
-  <div class="my-5 clearfix">    
-    {{ with .Resources.Get "card-2-history.md" }}
-      {{ .Content }}
-    {{ end }}
-  </div>
-</div>
-
-<div class="container col-xxl-8">
-  <div class="row row-cols-1 row-cols-md-2 my-5">
-    <div class="col p-3">
-      <div class="card h-100">
-        <div class="card-body">
-          {{ with .Resources.Get "card-4-vision.md" }}
+  <div class="row">
+    <div class="col-lg-6">    
+      {{ with .Resources.Get "card-1-history.md" }}
+        {{ .Content }}
+      {{ end }}
+    </div>
+    <div class="col-lg-6 d-flex align-content-center flex-wrap mx-auto lead" style="max-width: 500px">
+        <div class="py-5 mx-auto" >
+          {{ with .Resources.Get "card-2-vision.md" }}
             {{ .Content }}
           {{ end }}
         </div>
-      </div>
-    </div>
-    <div class="col p-3">
-      <div class="card h-100">
-        <div class="card-body">
-          {{ with .Resources.Get "card-5-mission.md" }}
+        <div class="py-5 mx-auto">
+          {{ with .Resources.Get "card-3-mission.md" }}
             {{ .Content }}
           {{ end }}
         </div>
       </div>
     </div>
   </div>  
+</div>
+
+<div class="container-fluid px-0">
+  <div class="px-4 py-5 text-center bg-light bg-gradient">
+    {{ with .Resources.Get "card-4-bible-quote.html" }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+</div>
+
+<div class="container col-xxl-8">
+  <div class="my-5 clearfix">    
+    {{ with .Resources.Get "card-5-early-years.md" }}
+      {{ .Content }}
+    {{ end }}
+  </div>
 </div>
 
 {{ partial "cta-activities.html" . }}
