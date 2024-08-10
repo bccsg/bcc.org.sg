@@ -1,11 +1,10 @@
 ## History { .centre .display-6 }
 
-<figure class="figure">
-  <img src="mobil-1987.jpg" class="figure-img img-fluid rounded">
-  <figcaption class=figure-caption>
-    1st premise in 1987 over a Mobil station
-  </figcaption>
-</figure>
+{{< 
+  history/figure 
+  src="mobil-1987.png"
+  caption="1st premise in 1987 over a Mobil petrol kiosk station"
+>}}
 
 Bethany Christian Centre was birthed in fulfilment of prophecies. In July 1987,
 Dr Anthony Phua stepped out in faith to plant a prophetic church. Bethany
