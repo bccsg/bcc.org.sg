@@ -1,12 +1,27 @@
 ### Care Groups { .card-title }
 
-We gather together as one united family in Christ every Sunday morning to praise
-and worship God, and to hear the Word of God. The message enlightens and reminds
-us of God’s Words, guiding us to live a victorious and purposeful life according
-to His plan for us.
-{ .card-text }
+Our care groups (also known as cell groups) are small group gatherings that
+provide a space for deeper connection, spiritual growth, and community building.
+We meet together twice a month to share life, study the Bible, pray, and support
+one another on their faith journeys.
 
-After the service, we encourage everyone to stay for a time of fellowship. This
-is an opportunity to connect with one another, share stories, and build
-meaningful relationships.
-{ .card-text }
+Currently our Care Groups take place on alternate weeks at various locations.
+
+<dl class="row my-5 mx-lg-auto">
+  <dt>Tuesday</dt>
+  <dl>
+    1.30pm - 3.30pm
+    <small>@ Ang Mo Kio</small>
+  </dl>
+  <dt>Friday</dt>
+  <dl>
+    8:00pm - 10:00pm
+    <small>@ Hougang, Fernvale, Tampines, Punggol & Woodleigh</small>
+  </dl>
+  <dt>Saturday</dt>
+  <dl>
+    4:00pm - 6:00pm,
+    <em>Youth</em>
+    <small>@ 167YCK</small>
+    </dl>
+</dl>

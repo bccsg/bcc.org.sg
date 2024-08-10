@@ -1,19 +1,18 @@
 <div class="container-fluid">
   <footer class="py-3 my-4">
-    {{ with .Site.Params.footer.contactInfo }}
-    <h5 class="text-center">{{ .title }}</h5>
+    {{ with .Site.Params.contactInfo }}
+    <h5 class="text-center">{{ .name }}</h5>
     <p class="text-center text-body-secondary">
       {{ .address }}<br>
-      t: <a href="tel:{{ .phone }}">{{ .phone }}</a>
-      e: <a href="mailto:{{ .email }}">{{ .email }}</a>
+      <i class="bi-telephone"></i>
+      <a class="text-decoration-none" href="tel:{{ .phone }}">
+        {{ .phone }}
+      </a>
+      <i class="bi bi-envelope-at"></i>
+      <a class="text-decoration-none" href="mailto:{{ .email }}">
+        {{ .email }}
+      </a>
     </p>
-    {{ end }}
-    {{ with .Site.Params.footer.sitemap }}
-    <ul class="nav justify-content-center pb-3 mb-3">
-      {{ range .link }}
-      <li class="nav-item"><a href="{{ .url | absURL }}" class="nav-link px-2 text-body-secondary">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
     {{ end }}
   </footer>
 </div>

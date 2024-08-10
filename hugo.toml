@@ -6,33 +6,21 @@ summarylength = 25
 # Site Params
 [params]
   dateFormat = "2 AUG 2024"
-  description = "A pentecostal charismatic Assemblies of God church"
+  description = "A Pentecostal Assemblies of God church"
 
   [params.cta_activities]
     title       = "New to Bethany?"
     description = """\
-      Discover what is going on at Bethany
-      and find something suitable for you.\
+      Discover what is going on and find something suitable for you!\
       """
     buttonText  = "Find out more"
     buttonUrl   = "/activities/"
 
-  [params.footer]
-    # Footer Contact Info
-    [params.footer.contactInfo]
-      title   = "Bethany Christian Centre"
-      address = "167 Yio Chu Kang Road, Singapore 545620"
-      phone   = "+65 6285 7151"
-      email   = "hello@bcc.org.sg"
-      # Footer Sitemap
-      [params.footer.sitemap]
-        title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "Terms of Use"
-          url  = "#"
-        [[params.footer.sitemap.link]]
-          name = "Cookie Policy"
-          url  = "#"
+  [params.contactInfo]
+    name    = "Bethany Christian Centre"
+    address = "167 Yio Chu Kang Road, Singapore 545620"
+    phone   = "+65 6285 7151"
+    email   = "hello@bcc.org.sg"
 
 [services]
   [services.googleAnalytics]
@@ -50,7 +38,6 @@ summarylength = 25
       unsafe = true
       xhtml = false
         
-
 [module]
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"

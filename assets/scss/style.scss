@@ -1,4 +1,26 @@
 @import "bootstrap/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  background-image: url('/images/bg-building-sky.webp');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.noto-sans-brand {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.rounded-auto {
+  @extend .rounded;
+}
 
 .text-cta-orange,
 .text-cta-orange .table>:not(caption)>*>* {
@@ -18,4 +40,23 @@
 .btn-cta-navy {
   @extend .btn-primary;
   background-color: #3D4381
+}
+
+@media only screen and (max-width: 990px) {
+  .rounded-auto {
+    border-radius: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  body {
+    background-size: 1440px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 1440px auto;
+    background-position: top 70%;
+  }
 }

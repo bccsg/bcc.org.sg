@@ -10,35 +10,35 @@
               Sunday English Services @ 167YCK<br>
               10:30am - 12:00pm
             </p>
+            {{ with .Site.GetPage "activities" }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="{{ relref . "activities/#card-1-english-service" }}" class="btn btn-sm btn-cta-navy btn-lg px-4">English Service</a>
-              <a href="{{ relref . "activities/#card-2-royal-rangers" }}" class="btn btn-sm btn-cta-navy btn-lg px-4">Children's Classes</a>
+              <a href="{{ .RelPermalink }}#card-1-english-service" class="btn btn-sm btn-cta-navy btn-lg px-4">English Service</a>
+              <a href="{{ .RelPermalink }}#card-2-royal-rangers" class="btn btn-sm btn-cta-navy btn-lg px-4">Children's Classes</a>
             </div>
+            {{ end }}
           </div>
         </div>
       </div>
       <div class="col-md-6 text-cta-orange">
-        <div class="py-5 px-md-5 px-lg-5">
+        <div class="py-5 px-lg-5">
           <h3>Mingle with us on Weekdays</h3>
           <div>
             <p>
-              Care groups on alternate weeks<br>
-              Tuesday: 2:30pm - 4:30pm<br>
-              Friday: 8:00pm - 10:00pm
+              Care groups on alternate weeks in<br>
+              Hougang, Fernvale, Tampines, Punggol & Woodleigh.
             </p>
-            <table class="table text-start">
-              <tr>
-                <th scope="row">Adult</th>
-                <td>Hougang, Fernvale, Tampines, Punggol & Woodleigh</td>
-              </tr>
-              <tr>
-                <th scope="row">Youth</th>
-                <td>167YCK (Saturday: 4:00pm - 5:30pm)</td>
-              </tr>
-            </table>
-            {{ if .Param "showContactUsButton" }}
+            <dl class="row text-start mx-auto" style="max-width: 240px">
+              <dt class="col-sm-4">Tuesday</dt>
+              <dd class="col-sm-8">1:30pm - 3:30pm</dd>
+              <dt class="col-sm-4">Friday</dt>
+              <dd class="col-sm-8">8:00pm - 10:00pm</dd>
+              <dt class="col-sm-4">Saturday</dt>
+              <dd class="col-sm-8">4:00pm - 6:00pm</dd>
+            </dl>
+            {{ $contactPage := .Site.GetPage "contact" }}
+            {{ if not (.Eq $contactPage) }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="{{ relref . "contact" }}" class="btn btn-sm btn-cta-orange btn-lg px-4">Contact Us</a>
+              <a href="{{ $contactPage.RelPermalink  }}" class="btn btn-sm btn-cta-orange btn-lg px-4">Contact Us</a>
             </div>
             {{ end }}
           </div>
@@ -47,5 +47,4 @@
     </div>
   </div>
 </div>
-
 {{ "<!-- Site cta-join-us End -->" | safeHTML }}

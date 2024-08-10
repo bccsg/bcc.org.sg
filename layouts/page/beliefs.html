@@ -1,9 +1,13 @@
 {{ define "main" }}
 
-<div class="container col-xxl-8">
+<div class="container col-xxl-8 w-md-50">
   <h1 class="display-3 text-center">{{ .Title }}</h1>
   <div class="my-5">
-    {{ .Content }}
+    <div class="row">
+      <div class="col-lg-5 offset-lg-2 py-xxl-5 my-xxl-5 lead">
+        {{ .Content }}
+      </div>
+    </div>
   </div>
 </div>
 
