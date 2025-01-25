@@ -52,7 +52,7 @@ title = 'Give'
 Please indicate your giving purpose in the transaction description.
 { .text-center }
 
-Example: YourName-Tithe / YourName-Offering / YourName Missions
+e.g. "YourName Tithe" / "YourName Offering" / "YourName Missions"
 { .text-center }
 
 <hr class="m-5">
