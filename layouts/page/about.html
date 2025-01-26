@@ -8,13 +8,13 @@
         {{ .Content }}
       {{ end }}
     </div>
-    <div class="col-lg-6 d-flex align-content-center flex-wrap mx-auto lead" style="max-width: 500px">
-        <div class="py-5 mx-auto" >
+    <div class="col-lg-6 d-flex align-content-center flex-wrap mx-auto my-5 lead" style="max-width: 500px">
+        <div class="mx-auto my-5" >
           {{ with .Resources.Get "card-2-vision.md" }}
             {{ .Content }}
           {{ end }}
         </div>
-        <div class="py-5 mx-auto">
+        <div class="mx-auto my-5">
           {{ with .Resources.Get "card-3-mission.md" }}
             {{ .Content }}
           {{ end }}

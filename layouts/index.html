@@ -19,10 +19,14 @@
       <h1 class="display-3 text-body-emphasis lh-1 mb-3">{{ .Title }}!</h1>
       {{ .Content }}
     </div>
-    <div class="p-0 pt-lg-5 rounded-auto">
+  </div>
+</div>
+<div class="container col-xxl-8">
+  <div class="row align-items-center my-lg-5">
+    <div class="p-0">
       {{ $image := resources.Get "images/event-20250216-healing-service.png" }}
       {{ with $image.Process "WEBP" }}
-        <a href="https://healing2025.bethany.sg/" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100" alt=""></a>
+        <a href="https://healing2025.bethany.sg/" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100 rounded-auto" alt="Healing Service 2025"></a>
       {{ end }}
     </div>
   </div>
