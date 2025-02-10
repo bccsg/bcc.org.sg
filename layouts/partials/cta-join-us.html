@@ -1,15 +1,16 @@
 {{ "<!-- Site cta-join-us Start -->" | safeHTML }}
 <div class="container-fluid bg-light bg-gradient text-center">
   <div class="container col-xxl-8">
-    <div class="row align-items-start mx-4 gx-3" >
-      <div class="col-md-6 text-cta-navy">
-        <div class="py-5 px-md-5 px-lg-5">
+    <div class="row align-items-start mx-4 py-5 py-md-0 gx-3" >
+      <div class="col-md-6 my-5 text-cta-navy">
+        <div class="px-lg-5">
           <h3>Worship with us in person</h3>
           <div>
-            <p>
-              Sunday English Services @ 167YCK<br>
-              10:30am - 12:00pm
-            </p>
+            <p>Weekly English Services @ 167YCK</p>
+            <dl class="row text-start mx-auto" style="max-width: 250px">
+              <dt class="col-sm-4">Sunday</dt>
+              <dd class="col-sm-8">10:30am - 12:00pm</dd>
+            </dl>
             {{ with .Site.GetPage "activities" }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <a href="{{ .RelPermalink }}#card-1-english-service" class="btn btn-sm btn-cta-navy btn-lg px-4">English Service</a>
@@ -19,13 +20,13 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 text-cta-orange">
-        <div class="py-5 px-lg-5">
+      <div class="col-md-6 my-5 text-cta-orange">
+        <div class="px-lg-5">
           <h3>Mingle with us on Weekdays</h3>
           <div>
             <p>
               Care groups on alternate weeks in<br>
-              Ang Mo Kio, Hougang, Fernvale,<br>
+              Ang Mo Kio, Bishan, Fernvale,<br>
               Tampines, Punggol & Woodleigh.
             </p>
             <dl class="row text-start mx-auto" style="max-width: 240px">

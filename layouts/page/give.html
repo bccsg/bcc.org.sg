@@ -18,7 +18,9 @@
           {{ end }}
           {{ with .Resources.Get "card-1-paynow-qr.png" }}
             {{ with .Resize "350x350 WEBP q100 Lanczos" }}
-          <img src="{{ .RelPermalink }}" class="img-fluid mx-auto d-block" alt="">
+          <div id="paynowqr" class="collapse">
+            <img src="{{ .RelPermalink }}" class="img-fluid mx-auto d-block" alt="">
+          </div>
             {{ end }}
           {{ end }}
         </div>

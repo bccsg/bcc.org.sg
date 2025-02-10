@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-<div class="container col-xxl-8 py-xxl-5">
+<div class="container col-xxl-8 py-sm-5">
   <div class="row align-items-center my-lg-5">
-    <div class="col-lg-6 col-xl-7 my-md-0 p-0">
+    <div class="col-lg-6 col-xl-7 p-0">
       <div class="carousel slide me-lg-5" data-bs-ride="carousel">
         <div class="carousel-inner rounded-auto">
           {{ range $index, $image := resources.Match "images/home-carousel-*" }}
-            {{ with $image.Fill "720x540 WEBP Center" }}
+            {{ with $image.Fill "720x320 WEBP Bottom" }}
           <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
             <img src="{{ .RelPermalink }}" class="d-block w-100" alt="">
           </div>
@@ -18,6 +18,16 @@
     <div class="col-lg-6 col-xl-5 my-5">
       <h1 class="display-3 text-body-emphasis lh-1 mb-3">{{ .Title }}!</h1>
       {{ .Content }}
+    </div>
+  </div>
+</div>
+<div class="container col-xxl-8">
+  <div class="row align-items-center my-lg-5">
+    <div class="p-0">
+      {{ $image := resources.Get "images/event-20250216-healing-service.png" }}
+      {{ with $image.Process "WEBP" }}
+        <a href="https://healing2025.bethany.sg/" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100 rounded-auto" alt="Healing Service 2025"></a>
+      {{ end }}
     </div>
   </div>
 </div>
