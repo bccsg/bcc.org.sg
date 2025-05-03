@@ -23,17 +23,6 @@
   </div>
 </div>
 
-<div class="container col-xxl-8">
-  <div class="row align-items-center my-lg-5">
-    <div class="p-0">
-      {{ $image := resources.Get "images/event-20250430-easter-service-2025.png" }}
-      {{ with $image.Process "WEBP" }}
-        <a href="https://sites.google.com/bethany.sg/bcceaster2025/" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100 rounded-auto" alt="Easter Sunday 2025"></a>
-      {{ end }}
-    </div>
-  </div>
-</div>
-
 {{ partial "cta-join-us.html" . }}
 
 {{ partial "cta-activities.html" . }}
