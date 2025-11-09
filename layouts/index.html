@@ -17,9 +17,23 @@
     </div>
 
     <div class="col-lg-6 col-xl-5 my-5">
-      <h1 class="display-3 text-body-emphasis lh-1 mb-3">{{ .Title }}!</h1>
-      {{ .Content }}
+      <h1 class="display-3 text-body-emphasis lh-1 mb-3 text-center">{{ .Title }}!</h1>
+      <p style="text-align: justify;">{{ .Content }}</p>
     </div>
+<!-- This is start of the code that put in the microsite banner -->
+<!-- Do not delete this code. You can comment it out but keep it there for maintenance purpose -->
+    <div class="container col-12"> 
+      <div class="row align-items-center my-lg-5">
+        <p style="color:rgb(0, 0, 0);text-align:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 160%;">Special Events @ Bethany</p>
+        <div class="p-0">
+          {{ $image := resources.Get "/images/event-BCC-christmas-2025.png" }}
+          {{ with $image.Process "WEBP" }}
+            <a href="https://bcc-christmas-2025.my.canva.site/" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100 rounded-auto" alt="Christmas 2025"></a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+<!-- This is the end of the code that put the micosite banner. -->
   </div>
 </div>
 
