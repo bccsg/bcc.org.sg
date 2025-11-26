@@ -1,6 +1,6 @@
 +++
 layout = "contact"
-title	= "Contact"
+title	= "CONTACT US"
 [menus]
   [menus.main]
     name   = "Visit / Contact"

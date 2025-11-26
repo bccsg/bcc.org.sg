@@ -1,7 +1,8 @@
 +++
 layout = 'about'
-title  = 'About'
+title  = 'ABOUT BCC'
 [menus]
   [menus.main]
+    name = "ABOUT"
     weight = 20
 +++

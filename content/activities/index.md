@@ -1,8 +1,8 @@
 +++
 layout = "activities"
-title	= "Services & Activities"
+title	= "SERVICE & ACTIVITIES"
 [menus]
   [menus.main]
-    name = "New to Bethany"
+    name = "ENGAGE"
     weight = 40
 +++

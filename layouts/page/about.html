@@ -1,31 +1,37 @@
 {{ define "main" }}
 
 <div class="container col-xxl-8">
-  <h1 class="display-3 text-center">{{ .Title }}</h1>
+  <h1 class="montserrat-header-text-1">ABOUT BCC</h1>
   <div class="row">
-    <div class="col-lg-6">    
+    <!--Section is the history of the church -->
+    <div class="nunito-text col-lg-6">    
       {{ with .Resources.Get "card-1-history.md" }}
         {{ .Content }}
       {{ end }}
     </div>
+
+    <!--Start section of the vision and mission of the church -->
     <div class="col-lg-6 d-flex align-content-center flex-wrap mx-auto my-5 lead" style="max-width: 500px">
-        <div class="mx-auto my-5" >
+        <!--Section is the vision of the church. Pulled from the content/about/card-2-vision.md -->
+        <div class="nunito-text mx-auto my-5" >
           {{ with .Resources.Get "card-2-vision.md" }}
             {{ .Content }}
           {{ end }}
         </div>
-        <div class="mx-auto my-5">
+        <div class="nunito-text mx-auto my-5">
           {{ with .Resources.Get "card-3-mission.md" }}
             {{ .Content }}
           {{ end }}
         </div>
       </div>
+    <!--End of Section of the vision and mission of the church -->
+
     </div>
   </div>  
 </div>
 
 <div class="container-fluid px-0">
-  <div class="px-4 py-5 text-center bg-light bg-gradient">
+  <div class="nunito-text px-4 py-5 text-center bg-light bg-gradient">
     {{ with .Resources.Get "card-4-bible-quote.html" }}
       {{ .Content }}
     {{ end }}
@@ -33,7 +39,7 @@
 </div>
 
 <div class="container col-xxl-8">
-  <div class="my-5 clearfix">    
+  <div class="nunito-text my-5 clearfix">    
     {{ with .Resources.Get "card-5-early-years.md" }}
       {{ .Content }}
     {{ end }}
