@@ -1,6 +1,6 @@
 +++
 layout = "beliefs"
-title	 = "Beliefs"
+title	 = "BELIEFS"
 [menus]
   [menus.main]
     weight = 30
@@ -9,11 +9,11 @@ title	 = "Beliefs"
 Bethany Christian Centre is an Assemblies of God church. There are 16
 Fundamental Truths that we subscribe to. Read more at the
 <a href="https://www.ag.org.sg/tenets-of-faith/" target="_blank" class="text-decoration-none">
-  Assemblies of God Tenets of Faith
+  **Assemblies of God Tenets of Faith**
   <i class="bi bi-box-arrow-up-right small"></i>
 </a>.
 
-Our core beliefs are anchored on these 16 Fundamental Truths out of which 5
+Our core beliefs are anchored on these **16 Fundamental Truths** out of which 5
 truths shaped our core beliefs which align with our vision and mission. These 5
 truths are: 
 

@@ -5,7 +5,9 @@ provide a space for deeper connection, spiritual growth, and community building.
 We meet together twice a month to share life, study the Bible, pray, and support
 one another on their faith journeys.
 
-Currently our Care Groups take place on alternate weeks at various locations.
+Currently our Care Groups take place on alternate weeks at various locations as below.
+
+---
 
 <dl class="row my-5 mx-lg-auto">
   <dt>Tuesday</dt>
@@ -22,6 +24,6 @@ Currently our Care Groups take place on alternate weeks at various locations.
   <dl>
     4:00pm - 6:00pm,
     <em>Youth</em>
-    <small>@ 167YCK</small>
+    <small>@ BCC</small>
     </dl>
 </dl>

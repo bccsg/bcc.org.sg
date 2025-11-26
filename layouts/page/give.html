@@ -1,8 +1,10 @@
 {{ define "main" }}
-<div class="container col-xxl-8">
-  <h1 class="display-3 text-center">{{ .Title }}</h1>
-  {{ with .Content }}
-  <div class="row">
+<div class="container col-xxl-12">
+  <h1 class="montserrat-header-text-1">GIVE</h1>
+  
+  <!-- The section pulls information from the content/give/index.md -->
+  <div class="nunito-text">
+    {{ with .Content }}
     <div class="col">
       {{ . }}
     </div>
@@ -12,7 +14,7 @@
   <div class="row row-cols-1 row-cols-md-2 my-5">
     <div class="col p-3">
       <div class="card h-100">
-        <div class="card-body">
+        <div class="nunito-text card-body">
           {{ with .Resources.Get "card-1-paynow.md" }}
             {{ .Content }}
           {{ end }}
@@ -29,7 +31,7 @@
 
     <div class="col p-3">
       <div class="card h-100">
-        <div class="card-body">
+        <div class="nunito-text card-body">
           {{ with .Resources.Get "card-2-bank-transfer.md" }}
             {{ .Content }}
           {{ end }}

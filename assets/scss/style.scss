@@ -11,11 +11,41 @@ body {
 
 .noto-sans-brand {
   font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto;*/
   font-weight: 800;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+.montserrat-header-text-1 {
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 30px; */
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:  "wdth" 100;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.eb-garamond-text {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  /* font-optical-sizing: auto; */
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: justify;
+}
+
+.nunito-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: justify;
 }
 
 .rounded-auto {

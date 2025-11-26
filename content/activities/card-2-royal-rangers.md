@@ -15,4 +15,13 @@ different merits which equip and empower them for life.
 Let your child experience the fun of Royal Rangers and get to know other
 children on a Sunday morning while you join in our English Services.
 
-Royal Rangers is held on alternate weeks. Contact us to find out more today!
+---
+
+<dl class="row my-5 mx-lg-auto">
+  <dt>Sunday</dt>
+  <dl>
+    10.30am - 12:00pm <br>
+    1st, 2nd, 3rd Sunday of the month.  
+  </dl>
+  <dl></dl>
+</dl>

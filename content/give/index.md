@@ -1,9 +1,9 @@
 +++
 layout = 'give'
-title = 'Give'
+title = 'GIVE'
 [menus]
   [menus.main]
-    weight = 50
+    weight = 60
 +++
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-lg-5 my-5">
@@ -47,7 +47,7 @@ title = 'Give'
   </figure>
 </div>
 
-<hr class="m-5">
+<hr class="m-4">
 
 Please indicate your giving purpose in the transaction description.
 { .text-center }
@@ -55,4 +55,4 @@ Please indicate your giving purpose in the transaction description.
 e.g. "YourName Tithe" / "YourName Offering" / "YourName Missions"
 { .text-center }
 
-<hr class="m-5">
+<hr class="m-4">

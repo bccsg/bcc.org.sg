@@ -1,20 +1,21 @@
 {{ "<!-- Site cta-join-us Start -->" | safeHTML }}
 <div class="container-fluid bg-light bg-gradient text-center">
   <div class="container col-xxl-8">
+    <h1 class="montserrat-header-text-1">Activities at a Glance</h1>
     <div class="row align-items-start mx-4 py-5 py-md-0 gx-3" >
-      <div class="col-md-6 my-5 text-cta-navy">
+      <div class="nunito-text col-md-6 my-5 text-cta-navy">
         <div class="px-lg-5">
-          <h3>Worship with us in person</h3>
-          <div>
+          <h3 class="text-center">Worship with us on Sunday</h3>
+          <div class="nunito-text text-center">
             <p>Weekly English Services @ BCC</p>
-            <dl class="row text-start mx-auto" style="max-width: 250px">
+            <dl class="row text-start mx-auto" style="max-width: 300px">
               <dt class="col-sm-4">Sunday</dt>
               <dd class="col-sm-8">10:30am - 12:00pm</dd>
             </dl>
             {{ with .Site.GetPage "activities" }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <a href="{{ .RelPermalink }}#card-1-english-service" class="btn btn-sm btn-cta-navy btn-lg px-4">English Service</a>
-              <a href="{{ .RelPermalink }}#card-2-royal-rangers" class="btn btn-sm btn-cta-navy btn-lg px-4">Children's Classes</a>
+              <a href="{{ .RelPermalink }}#card-2-royal-rangers" class="btn btn-sm btn-cta-navy btn-lg px-4">Royal Rangers</a>
             </div>
             {{ end }}
           </div>
@@ -24,12 +25,12 @@
         <div class="px-lg-5">
           <h3>Mingle with us on Weekdays</h3>
           <div>
-            <p>
+            <p class="nunito-text text-center">
               Care groups on alternate weeks in<br>
               Ang Mo Kio, Bishan, Fernvale,<br>
               Tampines, Punggol & Woodleigh.
             </p>
-            <dl class="row text-start mx-auto" style="max-width: 240px">
+            <dl class="row text-start mx-auto" style="max-width: 300px">
               <dt class="col-sm-4">Tuesday</dt>
               <dd class="col-sm-8">1:30pm - 3:30pm</dd>
               <dt class="col-sm-4">Friday</dt>

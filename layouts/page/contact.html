@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div class="container col-xxl-8">
-  <h1 class="display-3 text-center">{{ .Title }}</h1>
+<div class="container col-xxl-12">
+  <h1 class="montserrat-header-text-1">{{ .Title }}</h1>
   {{ with .Content }}
   <div class="row">
     <div class="col p-3">
@@ -46,7 +46,7 @@
 {{ partial "cta-join-us.html" . }}
 
 <div class="container col-xxl-8 my-5">
-  <h2 class="display-3 text-center my-5">Join us @ 167YCK</h2>
+  <h1 class="montserrat-header-text-1">Join us @ BCC</h1>
   <div class="row row-cols-1 row-cols-md-2">
     {{ with .Resources.Get "card-2-visit-public-transport.md" }}
     <div class="col p-3">
