@@ -1,5 +1,5 @@
 +++
-layout = 'about'
+layout = 'about'     
 title  = 'ABOUT BCC'
 [menus]
   [menus.main]
