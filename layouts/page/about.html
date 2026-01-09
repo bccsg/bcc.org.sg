@@ -1,25 +1,40 @@
 {{ define "main" }}
 
-<div class="container col-xxl-8">
+<div class="container col-xxl-12">
   <h1 class="montserrat-header-text-1">ABOUT BCC</h1>
-  <div class="row">
+  <!--<div class="row">-->
+    
     <!--Section is the history of the church -->
-    <div class="nunito-text col-lg-6">    
+    <div class="nunito-text col-xxl-12">    
       {{ with .Resources.Get "card-1-history.md" }}
         {{ .Content }}
       {{ end }}
     </div>
 
     <!--Start section of the vision and mission of the church -->
-    <div class="col-lg-6 d-flex align-content-center flex-wrap mx-auto my-5 lead" style="max-width: 500px">
+    <div class="col-xxl-8 d-flex flex-column align-items-center justify-content-center lead mx-auto" style="max-width: 1200px">
+      
+       
         <!--Section is the vision of the church. Pulled from the content/about/card-2-vision.md -->
+        <!--
         <div class="nunito-text mx-auto my-5" >
-          {{ with .Resources.Get "card-2-vision.md" }}
+          {{ with .Resources.Get "card-2-vision.m" }}
             {{ .Content }}
           {{ end }}
         </div>
-        <div class="nunito-text mx-auto my-5">
-          {{ with .Resources.Get "card-3-mission.md" }}
+        -->
+
+        <!--Section is the mission of the church. Pulled from the content/about/card-3-mission.md -->
+        <!--<div class="nunito-text mx-auto my-5">
+          {{ with .Resources.Get "card-3-mission.m" }}
+            {{ .Content }}
+          {{ end }}
+        </div> 
+        -->
+        
+        <!--Section is the vision and mission of the church in picture form. Pulled from the content/about/card-6-mission.md -->
+        <div class="nunito-text mx-auto my-5 text-center">
+          {{ with .Resources.Get "card-6-mission-vision.md" }}
             {{ .Content }}
           {{ end }}
         </div>
