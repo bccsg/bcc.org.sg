@@ -21,7 +21,8 @@ body {
 .montserrat-header-text-1 {
   font-family: "Montserrat", sans-serif;
   /* font-size: 30px; */
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
   font-weight: 500;
   font-style: normal;
   font-variation-settings:  "wdth" 100;
