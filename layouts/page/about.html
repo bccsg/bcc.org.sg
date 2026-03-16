@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 <div class="container col-xxl-12">
-  <h1 class="montserrat-header-text-1">ABOUT BCC</h1>
+  <h1 class="montserrat-header-text-1">ABOUT BCC</h1>             <!-- Comment: The Page Header -->
+  <div style="margin-top: 30px;"></div>                           <!-- Comment: Space between Title and actual content"-->
+  
   <!--<div class="row">-->
     
     <!--Section is the history of the church -->
@@ -33,7 +35,7 @@
         -->
         
         <!--Section is the vision and mission of the church in picture form. Pulled from the content/about/card-6-mission.md -->
-        <div class="nunito-text mx-auto my-5 text-center">
+        <div class="nunito-text mx-auto my-5 text-left">
           {{ with .Resources.Get "card-6-mission-vision.md" }}
             {{ .Content }}
           {{ end }}

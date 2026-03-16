@@ -1,10 +1,13 @@
 ## History { .centre .display-6 }
 
+<div style="text-align: center;">
 {{< 
   history/figure 
   src="mobil-1987.png"
   caption="1st premise in 1987 over a Mobil petrol kiosk station"
+  class="centre"
 >}}
+</div>
 
 Bethany Christian Centre was birthed in fulfilment of prophecies. In July 1987,
 Dr Anthony Phua stepped out in faith to plant a prophetic church. Bethany
@@ -18,6 +21,15 @@ The church grew in numbers and we continued to worship in the premise for 2 over
 decades. The building began to show signs of age over time. In 2018, members and
 leaders of the church unanimously decided to rebuild the church. However, due to
 the pandemic, we were forced to put the project on hold.
+
+<div style="text-align: center;">
+{{< 
+  history/figure 
+  src="BCC-building.png"
+  caption="The new Bethany Christian Centre"
+  class="centre"
+>}}
+</div>
 
 After 3 years of waiting and seeking God, the church decided to take the step of
 faith to embark on the rebuilding amidst the challenges and rising cost hit by
