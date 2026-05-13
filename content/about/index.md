@@ -1,8 +1,9 @@
 +++
 layout = 'about'     
 title  = 'ABOUT BCC'
-[menus]
-  [menus.main]
+
+[menu.main]
     name = "ABOUT"
     weight = 20
+    identifier = "id_activities"
 +++

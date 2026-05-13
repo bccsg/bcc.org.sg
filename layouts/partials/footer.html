@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <footer class="py-3 my-4">
     {{ with .Site.Params.contactInfo }}
-    <h5 class="text-center">{{ .name }}</h5>
+    <h5 class="text-center">{{ T "BCC" }}</h5>
     <p class="nunito-text-footer text-center text-body-secondary">
       {{ .address }}<br>
       <i class="bi-telephone"></i>
@@ -15,13 +15,13 @@
       <br>
       <!-- Code for Facebook -->
       <i class="bi bi-facebook"></i>                                      
-      <a class="text-decoration-none" href="https://www.facebook.com/bethanychristiancentre/">BCC Facebook</a>
+      <a class="text-decoration-none" href="https://www.facebook.com/bethanychristiancentre/">{{ T "facebook"}}</a>
       <!-- Code for Instagram 
       <i class="bi bi-instagram"></i>
       <a class="text-decoration-none" href="Put IG link here">BCC Instagram</a> -->
     </p>
     <!-- Code for All Rights Reserved -->
-    <p class="nunito-text-footer text-center text-body-secondary font-size: 14px;">Ⓒ 2026 Bethany Christian Centre. All Rights Reserved.</p>
+    <p class="nunito-text-footer text-center text-body-secondary font-size: 14px;">Ⓒ 2026 {{ T "BCC"}}. {{T "all_rights_reserved"}}.</p>
     {{ end }}
   </footer>
 </div>

@@ -1,8 +1,8 @@
 +++
 layout = 'home'
 title = 'Welcome'
-[menus]
-  [menus.main]
+
+[menu.main]
     name = "HOME"
     weight = 10 
     url = "{{ .Site.BaseURL }}"    

@@ -12,7 +12,7 @@ meaningful relationships.
 ---
 
 <dl class="row my-5 mx-lg-auto">
-  <dt>Sunday</dt>
+  <dt>Sunday @ Level A Main Hall</dt>
   <dl>
     Service: 10.30am - 12:00pm <br>
     Fellowship: 12:00pm - 1:00pm 

@@ -3,6 +3,10 @@ languageCode  = "en-sg"
 title         = "Bethany Christian Centre"
 summarylength = 25
 
+defaultContentLanguage = 'en'
+# Set this to false so your English URLs stay exactly as they are (e.g., /about/)
+defaultContentLanguageInSubdir = false
+
 # Site Params
 [params]
   dateFormat = "2 AUG 2024"
@@ -41,3 +45,13 @@ summarylength = 25
 [module]
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+
+[languages]                     
+  [languages.en]
+    languageName = 'English '
+    contentDir = 'content'      
+    weight = 1
+  [languages.zh]
+    languageName = '｜ 简体中文'
+    contentDir = 'content_zh'
+    weight = 2

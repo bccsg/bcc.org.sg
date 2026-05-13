@@ -1,8 +1,8 @@
 +++
 layout = "activities"
-title	= "SERVICE & ACTIVITIES"
+title	= "崇拜与活动"
 
 [menu.main]
-    name = "ENGAGE"
+    name = "参与"
     weight = 40
 +++
