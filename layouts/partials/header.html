@@ -27,5 +27,16 @@
         {{ end }}
       </ul>
     </div>
+    
+    <!-- Start of the code that allows users to switch between different languages-->
+    <!--
+    <nav class="language-switcher">
+      {{ range .AllTranslations }}
+        <a href="{{ .Permalink }}" class="{{ if eq .Language.Lang $.Language.Lang }}active{{ end }}">
+          {{ .Language.LanguageName }}
+        </a>
+      {{ end }}
+    </nav>
+    -->
   </div>
 </nav>

@@ -7,7 +7,7 @@ As a praying church, prayer is not simply something we do—it is part of who we
 ---
 
 <dl class="row my-5 mx-lg-auto">
-  <dt>Sunday</dt>
+  <dt>Sunday @ Level A Main Hall</dt>
   <dl>
     9.30am - 10:30pm <br>
     4th Sunday of every month 

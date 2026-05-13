@@ -1,8 +1,8 @@
 +++
 layout = "beliefs"
 title	 = "OUR BELIEFS"
-[menus]
-  [menus.main]
+
+[menu.main]
     name = "BELIEFS"
     weight = 30
 +++

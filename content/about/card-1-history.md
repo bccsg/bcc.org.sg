@@ -17,10 +17,19 @@ petrol station to a rented nursery, and then to an auditorium in a commercial
 school, until the purchase of the current property at 167 Yio Chu Kang Road in
 September 1989. After renovations, 167 was dedicated in June 1992.
 
+<div style="text-align: center;">
+{{< 
+  history/figure 
+  src="bcc-1992.png"
+  caption="1st permanent home for Bethany Christian Centre at 167."
+  class="centre"
+>}}
+</div>
+
 The church grew in numbers and we continued to worship in the premise for 2 over
 decades. The building began to show signs of age over time. In 2018, members and
 leaders of the church unanimously decided to rebuild the church. However, due to
-the pandemic, we were forced to put the project on hold.
+the pandemic, we were forced to put the project on hold. <br><br>
 
 <div style="text-align: center;">
 {{< 
