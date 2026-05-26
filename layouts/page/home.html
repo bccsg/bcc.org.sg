@@ -26,29 +26,21 @@
 
     <!-- This is start of the code that put in the microsite banner -->
     <!-- Do not delete this code. You can comment it out but keep it there for maintenance purpose -->
-    <!--
+    
     <div class="container col-12"> 
       <div class="row align-items-center my-lg-5">
         <h1 class="montserrat-header-text-1">{{ T "special_event" }}</h1>
 
         <div class="p-0">
-          {{ $image := resources.Get "images/event-BCC-EasterSunday-2026.png"}}
+          {{ $image := resources.Get "/images/event-BCC-chineseministryannouncement.gif"}}
           {{ with $image.Process "WEBP" }}
             <a href="" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100 rounded-auto" alt="Easter 2026"></a>
           {{ end }}
         </div> 
-
-        <div style="margin-top: 20px;"></div>
-
-        <div class="p-0">
-          {{ $image := resources.Get "images/event-BCC-parentingseminar-2026.png"}}
-          {{ with $image.Process "WEBP" }}
-            <a href="https://forms.gle/Dab6dTzZnSsf6idW9" target="_blank"><img src="{{ .RelPermalink }}" class="d-block w-100 rounded-auto" alt="Parenting 2026"></a>
-          {{ end }}
-        </div> 
-      </div>
+       <!--<div style="margin-top: 20px;"></div>-->
+     </div>
     </div>
-    -->
+   
     <!-- This is the end of the code that put the micosite banner. -->
     
   </div>
