@@ -16,6 +16,9 @@ other = "Bethany Christian Centre"
 [caregroup_alternate]
 other = "Care groups on alternate weeks in"
 
+[chinese_service]
+other = "Chinese Service"
+
 [contact_us]
 other = "Contact Us"
 
@@ -71,7 +74,7 @@ other = "Sunday"
 other = "Tuesday"
 
 [weekly_english]
-other = "Weekly English Services"
+other = "Weekly English and Chinese Services"
 
 [worship_sunday]
 other = "Worship with us on Sunday"

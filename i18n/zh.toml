@@ -16,6 +16,9 @@ other = "伯大尼基督中心"
 [caregroup_alternate]
 other = "我们的关怀小组每两周在以下地点聚会："
 
+[chinese_service]
+other = "华文崇拜"
+
 [contact_us]
 other = "联系我们"
 
@@ -71,7 +74,7 @@ other = "礼拜天"
 other = "礼拜二"
 
 [weekly_english]
-other = "周日英文崇拜"
+other = "周日英文与华文崇拜"
 
 [worship_sunday]
 other = "欢迎周日与我们一同敬拜"
@@ -79,17 +82,17 @@ other = "欢迎周日与我们一同敬拜"
 [AMK]
 other = "宏茂桥"
 
-[bishan]
+[Bishan]
 other = "碧山"
 
-[fernvale]
+[Fernvale]
 other = "芬微"
 
-[tampines]
+[Tampines]
 other = "淡滨尼"
 
-[punggol]
+[Punggol]
 other = "榜鹅"
 
-[woodleigh]
+[Woodleigh]
 other = "兀里"

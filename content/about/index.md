@@ -5,5 +5,5 @@ title  = 'ABOUT BCC'
 [menu.main]
     name = "ABOUT"
     weight = 20
-    identifier = "id_activities"
+    identifier = "id_about"
 +++

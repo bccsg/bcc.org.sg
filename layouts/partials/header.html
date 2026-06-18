@@ -11,7 +11,32 @@
         {{ $currentPage := . }}
         {{ $menu := (.Site.Menus.main) }}
         {{ range $index, $element := $menu }} 
-          {{ if .Params.highlight }}
+          
+{{ if .HasChildren }}
+            <li class="nav-item dropdown mx-1">
+              <a class="nav-link dropdown-toggle {{ if $currentPage.HasMenuCurrent .Menu . }}active{{ end }}" 
+                 href="#" 
+                 role="button" 
+                 data-bs-toggle="dropdown" 
+                 aria-expanded="false">
+                {{ .Name }}
+              </a>
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                  <li>
+                      <a class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" 
+                       href="{{ .URL | absURL }}">
+                      {{ .Name }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </li>
+
+
+
+
+          {{ else if .Params.highlight }}
           <li class="nav-item mx-1">
             <a class="btn btn-primary" aria-current="page" href="{{ .URL | absURL }}">{{ .Name }}</a>
           </li>
@@ -29,7 +54,7 @@
     </div>
     
     <!-- Start of the code that allows users to switch between different languages-->
-    <!--
+    
     <nav class="language-switcher">
       {{ range .AllTranslations }}
         <a href="{{ .Permalink }}" class="{{ if eq .Language.Lang $.Language.Lang }}active{{ end }}">
@@ -37,6 +62,6 @@
         </a>
       {{ end }}
     </nav>
-    -->
+    
   </div>
 </nav>
