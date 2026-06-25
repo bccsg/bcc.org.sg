@@ -40,6 +40,9 @@ other = "Find out more"
 [friday]
 other = "Friday" 
 
+[joinus]
+other = "Join us @ BCC"
+
 [mingle]
 other = "Mingle with us on Weekdays"
 
@@ -74,7 +77,7 @@ other = "Sunday"
 other = "Tuesday"
 
 [weekly_english]
-other = "Weekly English and Chinese Services"
+other = "English and Chinese Services"
 
 [worship_sunday]
 other = "Worship with us on Sunday"

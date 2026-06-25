@@ -7,7 +7,7 @@
 ---
 
 <dl class="row my-5 mx-lg-auto">
-  <dt>礼拜天  @ A楼大厅</dt>
+  <dt>星期天  @ A楼大厅</dt>
   <dl>
     崇拜: 10.30am - 12:00pm <br>
     团契: 12:00pm - 1:00pm 

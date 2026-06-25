@@ -7,17 +7,17 @@
 ---
 
 <dl class="row my-5 mx-lg-auto">
-  <dt>拜二</dt>
+  <dt>星期二</dt>
   <dl>
     1.30pm - 3.30pm
     <small>@ 宏茂桥</small>
   </dl>
-  <dt>拜五</dt>
+  <dt>星期五</dt>
   <dl>
     8:00pm - 10:00pm
     <small>@ 碧山, 芬微, 淡滨尼, 榜鹅 & 兀里</small>
   </dl>
-  <dt>拜六</dt>
+  <dt>星期六</dt>
   <dl>
     4:00pm - 6:00pm,
     <em>青少年</em>

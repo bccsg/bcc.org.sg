@@ -38,10 +38,13 @@ other = "伯大尼Facebook"
 other = "查询详情"
 
 [friday]
-other = "礼拜五" 
+other = "星期五" 
+
+[joinus]
+other = "方向指南"
 
 [mingle]
-other = "周间与我们相聚"
+other = "欢迎周间与我们相聚"
 
 [new]
 other = "新朋友"
@@ -62,19 +65,19 @@ other = "搜索文章..."
 other = "版权所有。"
 
 [saturday]
-other = "礼拜六"
+other = "星期六"
 
 [special_event]
 other = "伯大尼 * 特别活动"
 
 [sunday]
-other = "礼拜天"
+other = "星期天"
 
 [tuesday]
-other = "礼拜二"
+other = "星期二"
 
 [weekly_english]
-other = "周日英文与华文崇拜"
+other = "英文与华文崇拜"
 
 [worship_sunday]
 other = "欢迎周日与我们一同敬拜"
