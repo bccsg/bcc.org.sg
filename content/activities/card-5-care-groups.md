@@ -18,7 +18,7 @@ Currently our Care Groups take place on alternate weeks at various locations as 
   <dt>Friday</dt>
   <dl>
     8:00pm - 10:00pm
-    <small>@ Bishan, Fernvale, Tampines, Punggol & Woodleigh</small>
+    <small>@ Bishan, Sengkang</small>
   </dl>
   <dt>Saturday</dt>
   <dl>

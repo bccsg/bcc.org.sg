@@ -16,6 +16,18 @@ other = "Bethany Christian Centre"
 [caregroup_alternate]
 other = "Care groups on alternate weeks in"
 
+[cell_tuesday_timing]
+other = "1:30pm - 3:30pm"
+
+[cell_friday_timing]
+other = "8:00pm - 10:00pm"
+
+[cell_saturday_timing]
+other = "4:00pm - 6:00pm"
+
+[cell_location]
+other = "Ang Mo Kio, Bishan, Sengkang"
+
 [chinese_service]
 other = "Chinese Service"
 
@@ -81,6 +93,9 @@ other = "English and Chinese Services"
 
 [worship_sunday]
 other = "Worship with us on Sunday"
+
+[worship_timing]
+other = "10:30am - 12:00pm"
 
 [AMK]
 other = "Ang Mo Kio"
