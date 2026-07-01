@@ -8,60 +8,14 @@
     
     <!--Section is the history of the church -->
     <div class="nunito-text col-xxl-12">    
-      {{ with .Resources.Get "card-1-history.md" }}
+      {{ with .Resources.Get "card-1-pastor.md" }}
         {{ .Content }}
       {{ end }}
-    </div>
-
-    <!--Start section of the vision and mission of the church -->
-    <div class="col-xxl-8 d-flex flex-column align-items-center justify-content-center lead mx-auto" style="max-width: 1200px">
-      
-       
-        <!--Section is the vision of the church. Pulled from the content/about/card-2-vision.md -->
-        <!--
-        <div class="nunito-text mx-auto my-5" >
-          {{ with .Resources.Get "card-2-vision.m" }}
-            {{ .Content }}
-          {{ end }}
-        </div>
-        -->
-
-        <!--Section is the mission of the church. Pulled from the content/about/card-3-mission.md -->
-        <!--<div class="nunito-text mx-auto my-5">
-          {{ with .Resources.Get "card-3-mission.m" }}
-            {{ .Content }}
-          {{ end }}
-        </div> 
-        -->
-        
-        <!--Section is the vision and mission of the church in picture form. Pulled from the content/about/card-6-mission.md -->
-        <div class="nunito-text mx-auto my-5 text-left">
-          {{ with .Resources.Get "card-6-mission-vision.md" }}
-            {{ .Content }}
-          {{ end }}
-        </div>
-      </div>
-    <!--End of Section of the vision and mission of the church -->
-
     </div>
   </div>  
 </div>
 
-<div class="container-fluid px-0">
-  <div class="nunito-text px-4 py-5 text-center bg-light bg-gradient">
-    {{ with .Resources.Get "card-4-bible-quote.html" }}
-      {{ .Content }}
-    {{ end }}
-  </div>
-</div>
 
-<div class="container col-xxl-8">
-  <div class="nunito-text my-5 clearfix">    
-    {{ with .Resources.Get "card-5-early-years.md" }}
-      {{ .Content }}
-    {{ end }}
-  </div>
-</div>
 
 {{ partial "cta-activities.html" . }}
 

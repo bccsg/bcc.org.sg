@@ -1,21 +1,22 @@
 {{ "<!-- Site cta-join-us Start -->" | safeHTML }}
 <div class="container-fluid bg-light bg-gradient text-center">
-  <div class="container col-xxl-8">
+  <div class="container col-xxl-9">
     <h1 class="montserrat-header-text-1">{{ T "activities_glance"}}</h1>
     <div class="row align-items-start mx-4 py-3 py-md-0 gx-3" >
       <div class="nunito-text col-md-6 my-5 text-cta-navy">
         <div class="px-lg-5">
           <h3 class="text-center">{{ T "worship_sunday"}}</h3>
           <div class="nunito-text text-center">
-            <p>{{ T "weekly_english"}}</p>
+            <p><strong>{{ T "weekly_english"}}</strong></p>
             <dl class="row text-start mx-auto" style="max-width: 300px">
               <dt class="col-sm-4">{{ T "sunday"}}</dt>
-              <dd class="col-sm-8">10:30am - 12:00pm</dd>
+              <dd class="col-sm-8">{{ T "worship_timing"}}</dd>
             </dl>
             {{ with .Site.GetPage "activities" }}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <a href="{{ .RelPermalink }}#card-1-english-service" class="btn btn-sm btn-cta-navy btn-lg px-4">{{ T "english_service"}}</a>
-              <a href="{{ .RelPermalink }}#card-2-royal-rangers" class="btn btn-sm btn-cta-navy btn-lg px-4">{{ T "royal_rangers"}}</a>
+              <a href="{{ .RelPermalink }}#card-2-chinese-service" class="btn btn-sm btn-cta-navy btn-lg px-4">{{ T "chinese_service"}}</a>
+              <a href="{{ .RelPermalink }}#card-4-royal-rangers" class="btn btn-sm btn-cta-navy btn-lg px-4">{{ T "royal_rangers"}}</a>
             </div>
             {{ end }}
           </div>
@@ -25,19 +26,20 @@
         <div class="px-lg-5">
           <h3>{{ T "mingle"}}
           </h3>
-          <div>
+          <div class="nunito-text text-center">
             <p class="nunito-text text-center">
-              {{ T "caregroup_alternate"}}<br>
-              {{ T "AMK"}}, {{ T "bishan"}}, {{T "fernvale"}}, <br>
-              {{ T "tampines"}}, {{ T "punggol"}}, {{T "woodleigh"}}.
+              <strong>{{ T "caregroup_alternate"}}<br>
+              {{ T "cell_location"}}</strong>
             </p>
             <dl class="row text-start mx-auto" style="max-width: 300px">
               <dt class="col-sm-4">{{ T "tuesday"}}</dt>
-              <dd class="col-sm-8">1:30pm - 3:30pm</dd>
+              <dd class="col-sm-8">{{ T "cell_tuesday_timing"}}</dd>
               <dt class="col-sm-4">{{ T "friday"}}</dt>
-              <dd class="col-sm-8">8:00pm - 10:00pm</dd>
+              <dd class="col-sm-8">{{ T "cell_friday_timing"}}</dd>
               <dt class="col-sm-4">{{ T "saturday"}}</dt>
-              <dd class="col-sm-8">4:00pm - 6:00pm</dd>
+              <dd class="col-sm-8">{{ T "cell_saturday_timing"}}</dd>
+              <dt class="col-sm-4">{{ T "sunday"}}</dt>
+              <dd class="col-sm-8">{{ T "cell_sunday_timing"}}</dd>
             </dl>
             {{ $contactPage := .Site.GetPage "contact" }}
             {{ if not (.Eq $contactPage) }}

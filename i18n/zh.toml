@@ -2,7 +2,7 @@
 other = "关于"
 
 [activities_glance]
-other = "聚会时间表"
+other = "聚会时间"
 
 [address]
 other = "地址"
@@ -15,6 +15,24 @@ other = "伯大尼基督中心"
 
 [caregroup_alternate]
 other = "我们的关怀小组每两周在以下地点聚会："
+
+[cell_tuesday_timing]
+other = "下午1:30 - 3:30"
+
+[cell_friday_timing]
+other = "晚上8:00 - 10:00"
+
+[cell_saturday_timing]
+other = "下午4:00 - 6:00"
+
+[cell_sunday_timing]
+other = "中午12:00 - 下午2:00"
+
+[cell_location]
+other = "宏茂桥, 碧山, 胜港, 杨厝港"
+
+[chinese_service]
+other = "华文崇拜"
 
 [contact_us]
 other = "联系我们"
@@ -35,10 +53,13 @@ other = "伯大尼Facebook"
 other = "查询详情"
 
 [friday]
-other = "礼拜五" 
+other = "星期五" 
+
+[joinus]
+other = "方向指南"
 
 [mingle]
-other = "周间与我们相聚"
+other = "欢迎周间与我们相聚"
 
 [new]
 other = "新朋友"
@@ -50,7 +71,7 @@ other = "电话"
 other = "阅读更多"
 
 [royal_rangers]
-other = "皇家少年旅"
+other = "皇家游骑兵"
 
 [search_placeholder]
 other = "搜索文章..."
@@ -59,37 +80,40 @@ other = "搜索文章..."
 other = "版权所有。"
 
 [saturday]
-other = "礼拜六"
+other = "星期六"
 
 [special_event]
 other = "伯大尼 * 特别活动"
 
 [sunday]
-other = "礼拜天"
+other = "星期天"
 
 [tuesday]
-other = "礼拜二"
+other = "星期二"
 
 [weekly_english]
-other = "周日英文崇拜"
+other = "英文与华文崇拜"
 
 [worship_sunday]
 other = "欢迎周日与我们一同敬拜"
 
+[worship_timing]
+other = "上午10:30至下午12:00"
+
 [AMK]
 other = "宏茂桥"
 
-[bishan]
+[Bishan]
 other = "碧山"
 
-[fernvale]
+[Fernvale]
 other = "芬微"
 
-[tampines]
+[Tampines]
 other = "淡滨尼"
 
-[punggol]
+[Punggol]
 other = "榜鹅"
 
-[woodleigh]
+[Woodleigh]
 other = "兀里"

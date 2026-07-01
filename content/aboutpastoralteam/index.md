@@ -1,9 +1,10 @@
 +++
 layout = 'aboutpastoralteam'     
-title  = 'BCC Pastoral Team'
+title  = 'BCC PASTORAL TEAM'
 
 [menu.main]
     name = "PASTORAL TEAM"
-    weight = 1
-    parent = "id_activities"
+    weight = 25
 +++
+
+
