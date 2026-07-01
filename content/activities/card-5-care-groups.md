@@ -22,8 +22,13 @@ Currently our Care Groups take place on alternate weeks at various locations as 
   </dl>
   <dt>Saturday</dt>
   <dl>
-    4:00pm - 6:00pm,
+    4:00pm - 6:00pm
     <em>Youth</em>
     <small>@ BCC</small>
+    </dl>
+  <dt>Sunday</dt>
+  <dl>
+    12:00pm - 2:00pm
+    <small>@ Yio Chu Kang</small>
     </dl>
 </dl>

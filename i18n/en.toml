@@ -25,8 +25,11 @@ other = "8:00pm - 10:00pm"
 [cell_saturday_timing]
 other = "4:00pm - 6:00pm"
 
+[cell_sunday_timing]
+other = "12:00pm - 2:00pm"
+
 [cell_location]
-other = "Ang Mo Kio, Bishan, Sengkang"
+other = "Ang Mo Kio, Bishan, Sengkang, Yio Chu Kang"
 
 [chinese_service]
 other = "Chinese Service"

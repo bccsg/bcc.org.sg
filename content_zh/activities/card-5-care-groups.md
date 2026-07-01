@@ -23,4 +23,9 @@
     <em>青少年</em>
     <small>@ BCC</small>
     </dl>
+  <dt>星期日</dt>
+  <dl>
+    中午12:00 - 下午2:00
+    <small>@ 杨厝港</small>
+    </dl>
 </dl>

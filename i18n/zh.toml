@@ -25,8 +25,11 @@ other = "晚上8:00 - 10:00"
 [cell_saturday_timing]
 other = "下午4:00 - 6:00"
 
+[cell_sunday_timing]
+other = "中午12:00 - 下午2:00"
+
 [cell_location]
-other = "宏茂桥, 碧山, 胜港"
+other = "宏茂桥, 碧山, 胜港, 杨厝港"
 
 [chinese_service]
 other = "华文崇拜"
