@@ -5,13 +5,14 @@
     <p class="nunito-text-footer text-center text-body-secondary">
       {{ .address }}<br>
       <i class="bi-telephone"></i>
-      <a class="text-decoration-none" href="tel:{{ .phone }}">
-        {{ .phone }}
-      </a>
+      <a class="text-decoration-none" href="tel:{{ .phone }}">{{ .phone }}</a>
+      <br>
+      <i class="bi bi-whatsapp"></i>
+      <a class="text-decoration-none" href="https://wa.me/6589251601">{{ .whatsapp }}</a>
       <br>
       <i class="bi bi-envelope-at"></i>
       <a class="text-decoration-none" href="mailto:{{ .email }}">{{ .email }}</a>
-      <br>
+      <br><br>
       <!-- Code for Facebook -->
       <i class="bi bi-facebook"></i>                                      
       <a class="text-decoration-none" href="https://www.facebook.com/bethanychristiancentre/">{{ T "facebook"}}</a>

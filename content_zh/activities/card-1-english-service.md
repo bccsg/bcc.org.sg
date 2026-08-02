@@ -9,8 +9,8 @@
 <dl class="row my-5 mx-lg-auto">
   <dt>星期天  @ A楼大厅</dt>
   <dl>
-    崇拜: 10.30am - 12:00pm <br>
-    团契: 12:00pm - 1:00pm 
+    崇拜: 上午10.30m<br>
+    崇拜后团契 
   </dl>
   <dl></dl>
 </dl>

@@ -14,7 +14,7 @@ other = "All Rights Reserved"
 other = "Bethany Christian Centre"
 
 [caregroup_alternate]
-other = "Care groups on alternate weeks in"
+other = " in the 2nd and 4th week in Ang Mo Kio, Bishan, Sengkang, Serangoon and Yio Chu Kang"
 
 [cell_tuesday_timing]
 other = "1:30pm - 3:30pm"
@@ -26,7 +26,7 @@ other = "8:00pm - 10:00pm"
 other = "4:00pm - 6:00pm"
 
 [cell_sunday_timing]
-other = "12:00pm - 2:00pm"
+other = "12:30pm - 2:00pm"
 
 [cell_location]
 other = "Ang Mo Kio, Bishan, Sengkang, Yio Chu Kang"
@@ -58,8 +58,11 @@ other = "Friday"
 [joinus]
 other = "Join us @ BCC"
 
+[messageonly]
+other = "(Message only)"
+
 [mingle]
-other = "Mingle with us on Weekdays"
+other = "Join us at Care groups"
 
 [new]
 other = "New to Bethany?"
@@ -98,7 +101,7 @@ other = "English and Chinese Services"
 other = "Worship with us on Sunday"
 
 [worship_timing]
-other = "10:30am - 12:00pm"
+other = "10:30am"
 
 [AMK]
 other = "Ang Mo Kio"
