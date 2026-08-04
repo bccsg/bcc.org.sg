@@ -24,7 +24,8 @@ defaultContentLanguageInSubdir = false
     name    = "Bethany Christian Centre"
     address = "167 Yio Chu Kang Road, Singapore 545620"
     phone   = "+65 6285 7151"
-    email   = "hello@bcc.org.sg"
+    email   = "admin@bethany.sg"
+    whatsapp = "+65 8925 1601"
 
 [services]
   [services.googleAnalytics]

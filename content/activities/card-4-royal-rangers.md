@@ -20,7 +20,7 @@ children on a Sunday morning while you join in our English Services.
 <dl class="row my-5 mx-lg-auto">
   <dt>Sunday @ Level 2</dt>
   <dl>
-    10.30am - 12:00pm <br>
+    at 10.30am <br>
     1st, 2nd, 3rd Sunday of the month.  
   </dl>
   <dl></dl>

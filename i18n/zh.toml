@@ -14,7 +14,7 @@ other = "版权所有"
 other = "伯大尼基督中心"
 
 [caregroup_alternate]
-other = "我们的关怀小组每两周在以下地点聚会："
+other = "于每月的第 2 和第 4 个星期在宏茂桥、碧山、盛港、实龙岗和杨厝港举行。"
 
 [cell_tuesday_timing]
 other = "下午1:30 - 3:30"
@@ -26,7 +26,7 @@ other = "晚上8:00 - 10:00"
 other = "下午4:00 - 6:00"
 
 [cell_sunday_timing]
-other = "中午12:00 - 下午2:00"
+other = "中午12:30 - 下午2:00"
 
 [cell_location]
 other = "宏茂桥, 碧山, 胜港, 杨厝港"
@@ -58,8 +58,11 @@ other = "星期五"
 [joinus]
 other = "方向指南"
 
+[messageonly]
+other = "(仅限信息)"
+
 [mingle]
-other = "欢迎周间与我们相聚"
+other = "欢迎加入我们的关怀小组"
 
 [new]
 other = "新朋友"
@@ -98,7 +101,7 @@ other = "英文与华文崇拜"
 other = "欢迎周日与我们一同敬拜"
 
 [worship_timing]
-other = "上午10:30至下午12:00"
+other = "上午10:30"
 
 [AMK]
 other = "宏茂桥"
